@@ -16,7 +16,6 @@ def find_2020(array):
     for i in twenty_twenty_list:
         for j in array:
             if i == j:
-                print(i,2020-i)
                 return i*(2020-i)
 
 if __name__ == "__main__":
